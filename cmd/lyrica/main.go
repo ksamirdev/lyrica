@@ -5,8 +5,8 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/samocodes/go-lrc/env"
-	"github.com/samocodes/go-lrc/web/routes"
+	"github.com/ksamirdev/lyrica/env"
+	"github.com/ksamirdev/lyrica/web/routes"
 )
 
 type Application struct {

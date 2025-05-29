@@ -1,4 +1,4 @@
-module github.com/ksamirdev/go-lrc
+module github.com/ksamirdev/lyrica
 
 go 1.22.4
 

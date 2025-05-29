@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/samocodes/go-lrc/types"
+	"github.com/ksamirdev/lyrica/types"
 )
 
 func SupportsHTML(r *http.Request) bool {

@@ -5,6 +5,11 @@ The Lyrics Generator is a simple Go application designed to effortlessly create 
 ![App Preview](/assets/app.png)
 _Music: [Please Please Please by Sabrina Carpenter](https://open.spotify.com/track/5N3hjp1WNayUPZrA8kJmJP)_
 
+### Tech Stack
+
+- **Frontend:** HTML, Alphine.JS, Tailwind CSS
+- **Backend:** Go ([go chi](https://github.com/go-chi/chi))
+
 ### Features
 
 - **Simple Interface:** Easy-to-use application for generating synchronized lyrics.
@@ -14,14 +19,14 @@ _Music: [Please Please Please by Sabrina Carpenter](https://open.spotify.com/tra
 
 ### Installation
 
-You can download the binaries from the [GitHub Releases](https://github.com/samocodes/go-lrc/releases) page.
+You can download the binaries from the [GitHub Releases](https://github.com/ksamirdev/lyrica/releases) page.
 
 ### Usage
 
 1. **Download the Binary:** Obtain the appropriate binary for your operating system from the Releases page.
 2. **Run the Application:**
    ```bash
-   ./go-lrc-[os-arch]
+   ./lyrica-[os-arch]
    ```
 3. **Access the Dashboard:**
    - Navigate to `http://localhost:<port>` in your browser (port specified in `.env` file).
@@ -30,7 +35,7 @@ You can download the binaries from the [GitHub Releases](https://github.com/samo
 
 ### Contributing
 
-Contributions are welcome! If you find any issues or have suggestions, please open an issue or a pull request on the [GitHub repository](https://github.com/samocodes/go-lrc).
+Contributions are welcome! If you find any issues or have suggestions, please open an issue or a pull request on the [GitHub repository](https://github.com/ksamirdev/lyrica).
 
 ### License
 

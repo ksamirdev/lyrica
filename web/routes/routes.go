@@ -8,9 +8,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/samocodes/go-lrc/env"
-	"github.com/samocodes/go-lrc/helpers"
-	"github.com/samocodes/go-lrc/types"
+	"github.com/ksamirdev/lyrica/env"
+	"github.com/ksamirdev/lyrica/helpers"
+	"github.com/ksamirdev/lyrica/types"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"

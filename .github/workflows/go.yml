@@ -26,19 +26,6 @@ jobs:
         with:
           version: v1.59
 
-  # build:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #   - uses: actions/checkout@v4
-
-  #   - name: Set up Go
-  #     uses: actions/setup-go@v4
-  # with:
-  #   go-version: '1.22.4'
-
-  #   - name: Build
-  #     run: go build -v ./cmd/go-lrc/main.go
-
   release:
     name: Create Release
     runs-on: ubuntu-latest
@@ -72,7 +59,7 @@ jobs:
           echo "GOOS=$GOOS" >> $GITHUB_ENV
           echo "GOARCH=$GOARCH" >> $GITHUB_ENV
       - name: Build
-        run: go build -o "$BINARY_NAME" ./.../go-lrc
+        run: go build -o "$BINARY_NAME" ./.../lyrica
 
       - name: Release Notes
         run: git log $(git describe HEAD~ --tags --abbrev=0)..HEAD --pretty='format:* %h %s%n  * %an <%ae>' --no-merges >> "${{ github.workspace }}/RELEASE-TEMPLATE.md"

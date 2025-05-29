@@ -3,7 +3,7 @@ package helpers
 import (
 	"testing"
 
-	"github.com/samocodes/go-lrc/types"
+	"github.com/ksamirdev/lyrica/types"
 )
 
 func TestGenerateLRC(t *testing.T) {
